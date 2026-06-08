@@ -1,0 +1,37 @@
+{
+  "GIN HFL": {
+    "accuracy": 0.325,
+    "precision": 0.27091913511801047,
+    "recall": 0.325,
+    "f1": 0.2066894101939329,
+    "loss": 1.8153215765953064,
+    "n_params": 30475,
+    "train_time": 294.203102350235,
+    "per_client": {
+      "Transport": 0.5,
+      "Mobilier": 0.4607142857142857,
+      "Cylindrique": 0.0,
+      "Lounge": 0.5
+    }
+  },
+  "TACO-Net HFL": {
+    "accuracy": 0.2833333333333333,
+    "precision": 0.2953151314937168,
+    "recall": 0.2833333333333333,
+    "f1": 0.24078646505202433,
+    "loss": 1.877960745493571,
+    "n_params": 27784,
+    "train_time": 367.18260741233826,
+    "per_client": {
+      "Transport": 0.4928571428571429,
+      "Mobilier": 0.45,
+      "Cylindrique": 0.0,
+      "Lounge": 0.5
+    }
+  },
+  "VFL (XYZ+RGB)": {
+    "accuracy": 0.975,
+    "train_time": 138.55558276176453,
+    "n_params": 38600
+  }
+}
